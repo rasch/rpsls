@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin: 0;
+}
+
+form {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+button {
+  background: transparent;
+  border-radius: 1rem;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  height: 8rem;
+  margin: 0.3rem;
+  padding: 0.6rem;
+  text-align: center;
+  width: 8rem;
+}
+
+button:hover {
+  background: #a5d8ff;
+}
+
+#output {
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.emoji {
+  font-size: 3rem;
+  pointer-events: none;
+  transition: font-size 300ms ease;
+}
+
+button:hover .emoji {
+  font-size: 4rem;
+  transition: font-size 300ms ease;
+}
